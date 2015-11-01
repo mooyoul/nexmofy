@@ -1,0 +1,34 @@
+{
+  "name": "nexmofy",
+  "version": "1.0.0",
+  "description": "Nexmo callback receiver which based on EventEmiiter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooyoul/nexmofy.git"
+  },
+  "keywords": [
+    "nexmo",
+    "notifier",
+    "messaging",
+    "voice",
+    "nexmo"
+  ],
+  "author": "MooYeol, Lee (Prescott) <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/nexmofy/issues"
+  },
+  "homepage": "https://github.com/mooyoul/nexmofy#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "moment": "^2.10.6",
+    "morgan": "^1.6.1",
+    "request": "^2.65.0",
+    "underscore": "^1.8.3"
+  }
+}
